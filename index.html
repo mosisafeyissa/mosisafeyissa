@@ -5,19 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./My Portfolio/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Mosisa's Portfolio</title>
+    <title>Mosisa Feyissa | Software Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Mosisa Feyissa, a passionate Software Engineer specializing in Backend Development, Web Applications, and AI/ML solutions.">
 </head>
 <body>
-    <main class="">
-        <ul class="nav-bar"id="nav-bar">
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skill">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a target="_blank" href="https://flowcv.com/resume/5lq8culg7vu1">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="#">MF<span>.</span></a>
+            </div>
+            <ul class="nav-bar" id="nav-bar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a target="_blank" href="https://flowcv.com/resume/5lq8culg7vu1">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main>
         <div class="intro-area">
-            <div style="height:320px" class="title left social">
+            <div class="title left social">
                 <ul>
                     <li><a target="_blank" href="https://github.com/mosisafeyissa"><i class='bx bxl-github' style='color:#d8d4d4'></i></a></li>
                     <li><a target="_blank" href="https://www.linkedin.com/in/mosisa-feyissa-24aa592a0/"><i class='bx bxl-linkedin-square' style='color:#d8d4d4' ></i></li>
@@ -44,7 +55,7 @@
         </div>
         <div id="about" class="about-area">
             <div class="container">
-                <div style="height:160px" class="title right ">
+                <div class="title right">
                     <p>About Me</p>
                 </div>
                 <div class="about">
@@ -63,71 +74,252 @@
         </div>
         <div id="skill" class="skill-area">
             <div class="container">
-                <div style="height:160px" class="title left ">
+                <div class="title right">
                     <p>My Skills</p>
                 </div>
                 <div class="skills">
-                    <div class="skill">
-                        <div class="card">
-                            <h4>HTML+CSS+JS</h4>
-                            <p>80%</p>
-                            <div style="width:80%" class="progress-ar"></div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h5>PHP</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Laravel</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Python</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Django</h5>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h4>PHP/Laravel</h4>
-                            <p>80%</p>
-                            <div style="width:80%" class="progress-ar"></div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h5>HTML</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>CSS</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>TailwindCSS</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>JavaScript</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Blade</h5>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h4>MongoDB</h4>
-                            <p>75%</p>
-                            <div style="width:75%" class="progress-ar"></div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Database</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h5>MySQL</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>MongoDB</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>PostgreSQL</h5>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h4>Node.js</h4>
-                            <p>70%</p>
-                            <div style="width:70%" class="progress-ar"></div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Security</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h5>CSRF Protection</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>XSS Prevention</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>SQL Injection Prevention</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Authentication & Authorization</h5>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h4>Express JS</h4>
-                            <p>70%</p>
-                            <div style="width:70%" class="progress-ar"></div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h5>Git/GitHub</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>XAMPP</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Filament</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>VS Code</h5>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h4>SQL</h4>
-                            <p>90%</p>
-                            <div style="width:90%" class="progress-ar"></div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h5>Problem Solving</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Team Collaboration</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Documentation</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>System Design Thinking</h5>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h4>Python</h4>
-                            <p>85%</p>
-                            <div style="width:85%" class="progress-ar"></div>
-                        </div>
-                        <div class="card">
-                            <h4>Java</h4>
-                            <p>70%</p>
-                            <div style="width:70%" class="progress-ar"></div>
-                        </div>
-                        <div class="card">
-                            <h4>C++</h4>
-                            <p>90%</p>
-                            <div style="width:85%" class="progress-ar"></div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>AI/ML</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h5>NumPy</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Pandas</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>TensorFlow</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>PyTorch</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Machine Learning</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Deep Learning</h5>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Computer Vision</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <div id="portfolio" class="portfolio-area">
             <div class="container">
-                <div class="title left" style="height:160px">
-                    <p>Portfolio</p>
-                </div>
+                <div class="title left"><p>Portfolio</p></div>
                 <div class="portfolios">
+                        <div class="portfolio small">
+                            <div class="portfolio-img"><img alt="Gibigubae Attendance" src="./My Portfolio/images/attendance.jpg"></div>
+                            <div class="details">
+                                <h4><a target="_blank" href="https://attendance.aastugibigubae.com/">AASTU GibiGuabe Attendance System</a></h4>
+                                <p>A specialized management system for AASTU Gibigubae which provides comprehensive tracking for student life cycles, including course enrollment, detailed attendance monitoring.</p>
+                                <!-- <div class="links">
+                                    <ul>
+                                        <li><a target="_blank" href="#"><i class='bx bxl-github' style='color:#d8d4d4'></i></a></li>
+                                    </ul>
+                                </div> -->
+                                <ul class="portfolio-tools">
+                                    <li>Node.js</li>
+                                    <li>Express</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio small">
+                            <div class="portfolio-img"><img alt="Kuriftu AI Cultural Exploration" src="./My Portfolio/images/ALX_hackathon.jpg"></div>
+                            <div class="details">
+                                <h4><a target="_blank" href="https://github.com/mosisafeyissa/Kuriftu-AI-Cultural-Exploration-Platform">Kuriftu AI Cultural Exploration</a></h4>
+                                <p>An AI-powered cultural exploration platform for Kuriftu Resorts, combining artifact recognition, historical storytelling, and artisan commerce across mobile and web.</p>
+                                <div class="links">
+                                    <ul>
+                                        <li><a target="_blank" href="https://github.com/mosisafeyissa/Kuriftu-AI-Cultural-Exploration-Platform"><i class='bx bxl-github' style='color:#d8d4d4'></i></a></li>
+                                    </ul>
+                                </div>
+                                <ul class="portfolio-tools">
+                                    <li>Django</li>
+                                    <li>Flutter</li>
+                                    <li>PostgreSQL</li>
+                                    <li>Google Gemini Vision API</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio">
+                            <div class="portfolio-img"><img alt="SmartMap" src="./My Portfolio/images/smart_map.jpg"></div>
 
-                    <div class="portfolio-items portfolios-regular">
+                            <div class="details">
+                                <h4>
+                                    <a target="_blank" href="https://github.com/mosisafeyissa/Smart_map">SmartMap</a>
+                                </h4>
+
+                                <p>
+                                    An AI-powered smart mapping platform developed during the GDG AASTU AI/ML Hackathon, designed to provide intelligent navigation and enhanced map-based user experiences beyond traditional mapping systems.
+                                </p>
+
+                                <div class="links">
+                                    <ul>
+                                        <li>
+                                            <a target="_blank" href="https://github.com/mosisafeyissa/Smart_map">
+                                                <i class='bx bxl-github' style='color:#d8d4d4'></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <ul class="portfolio-tools">
+                                    <li>Laravel</li>
+                                    <li>Python</li>
+                                    <li>AI/ML</li>
+                                    <li>MySQL</li>
+                                    <li>REST API</li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="portfolio small">
                             <div class="details">
-                                <h4><a target="_blank" href="https://github.com/mosisafeyissa/MyFitnesspal_TeamIV">My-Fitness Pal Backend</a></h4>
+                                <h4><a target="_blank" href="https://github.com/Wired-section-C/Hotel_Managment_system">C++ Team project</a></h4>
+                                <p>Team project on hotel managment system using c++</p>
+                                <div class="links">
+                                    <ul>
+                                        <li><a target="_blank" href="https://github.com/Wired-section-C/Hotel_Managment_system"><i class='bx bxl-github'></i></a></li>
+                                    </ul>
+                                </div>
+                                <ul class="portfolio-tools">
+                                    <li>C++</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio small">
+                            <div class="details">
+                                <h4><a target="_blank" href="https://github.com/mosisafeyissa/AgriPay_Later_Backend_GDG_Hackathon">AgriPay Later Backend</a></h4>
+                                <p>A full-featured backend system for a micro-loan and harvest management platform that connects farmers with administrators. Implemented secure authentication (JWT), role-based access control, and RESTful APIs for user registration, loan requests, repayments, and harvest tracking.</p>
+                                <div class="links">
+                                    <ul>
+                                        <li><a target="_blank" href="https://github.com/mosisafeyissa/AgriPay_Later_Backend_GDG_Hackathon"><i class='bx bxl-github'></i></a></li>
+                                    </ul>
+                                </div>
+                                <ul class="portfolio-tools">
+                                    <li>Node.js</li>
+                                    <li>Express</li>
+                                    <li>MongoDB</li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio small">
+                            <div class="portfolio-img"><img alt="My FItness Pal" src="./My Portfolio/images/CalLogFit.jpg"></div>
+                            <div class="details">
+                                <h4><a target="_blank" href="https://github.com/mosisafeyissa/MyFitnesspal_TeamIV">My-Fitness Pal Clone</a></h4>
                                 <p>A health and fitness tracking application. Enables users to manage food intake, exercise logs, weight check-ins, and personalized fitness goals — with full analytics and admin management capabilities.</p>
                                 <div class="links">
                                     <ul>
@@ -141,42 +333,6 @@
                             </div>
                         </div>
                         <div class="portfolio small">
-                            <div class="details">
-                                <h4><a target="_blank" href="https://github.com/mosisafeyissa/AgriPay_Later_Backend_GDG_Hackathon">AgriPay Later Backend</a></h4>
-                                <p>A full-featured backend system for a micro-loan and harvest management platform that connects farmers with administrators. Implemented secure authentication (JWT), role-based access control, and RESTful APIs for user registration, loan requests, repayments, and harvest tracking.</p>
-                                <div class="links">
-                                    <ul>
-                                        <li><a target="_blank" href="https://github.com/mosisafeyissa/AgriPay_Later_Backend_GDG_Hackathon"><i class='bx bxl-github' style='color:#d8d4d4'></i></a></li>
-                                    </ul>
-                                </div>
-                                <ul class="portfolio-tools">
-                                    <li>Node.js</li>
-                                    <li>Express</li>
-                                    <li>MongoDB</li> 
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-items portfolios-featured">
-                        <div class="portfolio">
-                            <div class="portfolio-img"><img alt="Wired Hotel" src="./My Portfolio/images/hotel.jpg"></div>
-                            <div class="details">
-                                <h4><a target="_blank" href="https://github.com/Wired-team-Project/IP-Project">Wired Hotel</a></h4>
-                                <p>A hotel website that has full reservation and every servises given by the hotel</p>
-                                <div class="links">
-                                    <ul>
-                                        <li><a target="_blank" href="https://github.com/Wired-team-Project/IP-Project"><i class='bx bxl-github' style='color:#d8d4d4'></i></a></li>
-                                    </ul>
-                                </div>
-                                <ul class="portfolio-tools">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="portfolio">
                             <div class="portfolio-img"><img alt="Weather" src="./My Portfolio/images/Weather .jpg"></div>
                             <div class="details">
                                 <h4><a target="_blank" href="https://github.com/mosisafeyissa/PRODIGY_WD_05/tree/master/weather%20forecast">Weather Forecast</a></h4>
@@ -194,14 +350,15 @@
                                 </ul>
                             </div>
                         </div>
+                        
                         <div class="portfolio">
-                            <div class="portfolio-img"><img alt="Game" src="./My Portfolio/images/Tic-Tac-Toe.jpg"></div>
+                            <div class="portfolio-img"><img alt="Wired Hotel" src="./My Portfolio/images/hotel.jpg"></div>
                             <div class="details">
-                                <h4><a target="_blank" href="https://github.com/mosisafeyissa/PRODIGY_WD_03">Tic-Tac-Toe</a></h4>
-                                <p>Interactive tic-tac-toe game which enables to play with either 2 players or computer</p>
+                                <h4><a target="_blank" href="https://github.com/Wired-team-Project/IP-Project">Wired Hotel</a></h4>
+                                <p>A hotel website that has full reservation and every servises given by the hotel</p>
                                 <div class="links">
                                     <ul>
-                                        <li><a target="_blank" href="https://github.com/mosisafeyissa/PRODIGY_WD_03"><i class='bx bxl-github' style='color:#d8d4d4'></i></a></li>
+                                        <li><a target="_blank" href="https://github.com/Wired-team-Project/IP-Project"><i class='bx bxl-github' style='color:#d8d4d4'></i></a></li>
                                     </ul>
                                 </div>
                                 <ul class="portfolio-tools">
@@ -211,45 +368,15 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="portfolio-items portfolios-regular">
-                        <div class="portfolio small">
-                            <div class="details">
-                                <h4><a target="_blank" href="https://github.com/mosisafeyissa/PRODIGY_WD_02">Stop-Watch</a></h4>
-                                <p>a stop watch website that enables to track time with precision</p>
-                                <div class="links">
-                                    <ul>
-                                        <li><a target="_blank" href="https://github.com/mosisafeyissa/PRODIGY_WD_02"><i class='bx bxl-github' style='color:#d8d4d4'></i></a></li>
-                                    </ul>
-                                </div>
-                                <ul class="portfolio-tools">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="portfolio small">
-                            <div class="details">
-                                <h4><a target="_blank" href="https://github.com/Wired-section-C/Hotel_Managment_system">C++ Team project</a></h4>
-                                <p>Team project on hotel managment system using c++</p>
-                                <div class="links">
-                                    <ul>
-                                        <li><a target="_blank" href="https://github.com/Wired-section-C/Hotel_Managment_system"><i class='bx bxl-github' style='color:#d8d4d4'></i></a></li>
-                                    </ul>
-                                </div>
-                                <ul class="portfolio-tools">
-                                    <li>C++</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                        
+                        
+                        
                 </div>
             </div>
         </div>
         <div id="contact" class="contact-area">
             <div class="container">
-                <div style="height:160px" class="title right ">
+                <div class="title right">
                     <p>Contact</p>
                 </div>
                 <div class="contact">
@@ -274,11 +401,10 @@
         </div>
     </main>
     <footer class="footer-area">
-        <div style="padding:50px 25px" class="footer container">
-            <p>Addis Ababa, Ethiopia 2025</p>
+        <div class="footer container">
+            <p>Addis Ababa, Ethiopia 2026</p>
         </div>
     </footer>
-</div>
 </body>
 <script src="./My Portfolio/script.js"></script>
 </html>
